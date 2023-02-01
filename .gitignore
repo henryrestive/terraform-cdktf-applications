@@ -8,6 +8,7 @@ cdktf.log
 .terraform
 tsconfig.tsbuildinfo
 !jest.config.js
+!jest.setup.js
 !setup.js*.d.ts
 !setup.js
 !backend.js
