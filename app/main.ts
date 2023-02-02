@@ -37,7 +37,7 @@ const app = new App()
 new MyStack(app, 'app', {
   frontend: {
     image: 'localhost:5000/nocorp-frontend:latest',
-    replicas: 3,
+    replicas: 1,
     port: 30001,
     app: 'myapp',
     component: 'frontend',
@@ -45,7 +45,7 @@ new MyStack(app, 'app', {
   },
   backend: {
     image: 'localhost:5000/nocorp-backend:latest',
-    replicas: 1,
+    replicas: 3,
     port: 30002,
     app: 'myapp',
     component: 'backend',
