@@ -1,4 +1,4 @@
-FROM node:19.4-bullseye-slim
+FROM node:19.6.1-bullseye-slim
 
 WORKDIR /usr/share/app
 
