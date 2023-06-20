@@ -20,7 +20,7 @@
     "node": ">=14.0"
   },
   "dependencies": {
-    "cdktf": "^0.16.0-pre.4",
+    "cdktf": "^0.16.0",
     "constructs": "^10.1.235",
     "path": "^0.12.7"
   },
